@@ -104,4 +104,10 @@ public class RestUtilities {
 	public static void setContentType(ContentType type) {
 		given().contentType(type);
 	}
+	
+	public static void test() {
+		
+		System.out.println("Testing");
+	}
+	}
 }
